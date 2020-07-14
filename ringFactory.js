@@ -30,6 +30,7 @@ const createCustomRing = (style, carets, metal) => {
     }
 }
 
-const newRingOrder = createCustomRing(ringStyles[1], diamonds[2], metals[2])
+const newRingOrder1 = createCustomRing(ringStyles[1], diamonds[2], metals[2])
+const newRingOrder2 = createCustomRing(ringStyles[2], diamonds[3], metals[3])
 
-console.log(newRingOrder)
+console.log(newRingOrder1, newRingOrder2)
